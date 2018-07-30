@@ -9,7 +9,7 @@ var staticroot = path.resolve(path.dirname(__filename), '../');
 	
 // start server
 var app = express();
-var port =  8080;
+var port =  8082;
 
 
 var server = http.createServer(app);
